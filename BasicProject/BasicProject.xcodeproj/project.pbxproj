@@ -54,6 +54,11 @@
 		18AB36A221E79F5000626A05 /* BasicProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB36A121E79F5000626A05 /* BasicProjectUITests.m */; };
 		A26EEE40EADE9641648228B2 /* libPods-BasicProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C81DD122B0EAA2A54CCC0985 /* libPods-BasicProjectUITests.a */; };
 		CC3643C58C6F55C69093B34B /* libPods-BasicProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5300FE074EB823C973D0C72 /* libPods-BasicProjectTests.a */; };
+		D0253B0022BF7FF600D8F88A /* NSString+GMExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = D0253AFE22BF7FF600D8F88A /* NSString+GMExtention.m */; };
+		D0253B0322BF804400D8F88A /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = D0253B0222BF804400D8F88A /* UIImage+Color.m */; };
+		D0253B0622BF805B00D8F88A /* UIViewController+GMUPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0253B0522BF805B00D8F88A /* UIViewController+GMUPlaceholderView.m */; };
+		D0253B0922BF809200D8F88A /* AVAsset+FMLVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = D0253B0822BF809200D8F88A /* AVAsset+FMLVideo.m */; };
+		D0253B0C22BF80A900D8F88A /* CustomTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D0253B0A22BF80A900D8F88A /* CustomTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +186,15 @@
 		A5300FE074EB823C973D0C72 /* libPods-BasicProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C397C3C35238C4D38987FCDD /* Pods-BasicProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicProjectUITests/Pods-BasicProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C81DD122B0EAA2A54CCC0985 /* libPods-BasicProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0253AFE22BF7FF600D8F88A /* NSString+GMExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GMExtention.m"; sourceTree = "<group>"; };
+		D0253AFF22BF7FF600D8F88A /* NSString+GMExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GMExtention.h"; sourceTree = "<group>"; };
+		D0253B0122BF804300D8F88A /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		D0253B0222BF804400D8F88A /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		D0253B0422BF805B00D8F88A /* UIViewController+GMUPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GMUPlaceholderView.h"; sourceTree = "<group>"; };
+		D0253B0522BF805B00D8F88A /* UIViewController+GMUPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GMUPlaceholderView.m"; sourceTree = "<group>"; };
+		D0253B0722BF809200D8F88A /* AVAsset+FMLVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAsset+FMLVideo.h"; sourceTree = "<group>"; };
+		D0253B0822BF809200D8F88A /* AVAsset+FMLVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+FMLVideo.m"; sourceTree = "<group>"; };
+		D0253B0A22BF80A900D8F88A /* CustomTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +297,15 @@
 		00D09B8D21E8751A008EFDAF /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D0253B0A22BF80A900D8F88A /* CustomTools.m */,
+				D0253B0722BF809200D8F88A /* AVAsset+FMLVideo.h */,
+				D0253B0822BF809200D8F88A /* AVAsset+FMLVideo.m */,
+				D0253B0422BF805B00D8F88A /* UIViewController+GMUPlaceholderView.h */,
+				D0253B0522BF805B00D8F88A /* UIViewController+GMUPlaceholderView.m */,
+				D0253B0122BF804300D8F88A /* UIImage+Color.h */,
+				D0253B0222BF804400D8F88A /* UIImage+Color.m */,
+				D0253AFF22BF7FF600D8F88A /* NSString+GMExtention.h */,
+				D0253AFE22BF7FF600D8F88A /* NSString+GMExtention.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -926,6 +949,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0253B0022BF7FF600D8F88A /* NSString+GMExtention.m in Sources */,
 				00D09CBB21E8751A008EFDAF /* WHHudView.m in Sources */,
 				00D09CAE21E8751A008EFDAF /* BSUserDataSocure.m in Sources */,
 				00D09CD121E8751A008EFDAF /* BSTabBarControllerConfig.m in Sources */,
@@ -934,6 +958,7 @@
 				00D09CA621E8751A008EFDAF /* UIView+Toast.m in Sources */,
 				00D09CBA21E8751A008EFDAF /* BSAPIConstant.m in Sources */,
 				00D09CE921E8751A008EFDAF /* BSMessageViewController.m in Sources */,
+				D0253B0322BF804400D8F88A /* UIImage+Color.m in Sources */,
 				00D09CB821E8751A008EFDAF /* BSLSNetworkHelper.m in Sources */,
 				00D09CC521E8751A008EFDAF /* BSBaseViewController.m in Sources */,
 				00D09CF221E8751A008EFDAF /* BSMineViewController.m in Sources */,
@@ -944,6 +969,7 @@
 				00D09CC421E8751A008EFDAF /* BSBaseView.m in Sources */,
 				00D09CAF21E8751A008EFDAF /* BSLoginModel.m in Sources */,
 				00D09CD321E8751A008EFDAF /* AppDelegate.m in Sources */,
+				D0253B0C22BF80A900D8F88A /* CustomTools.m in Sources */,
 				00D09CA221E8751A008EFDAF /* UIView+WY_Extenison.m in Sources */,
 				00D09C9F21E8751A008EFDAF /* UIGestureRecognizer+WHExtension.m in Sources */,
 				00D09CCF21E8751A008EFDAF /* BSRootViewController.m in Sources */,
@@ -953,9 +979,11 @@
 				00D09CC721E8751A008EFDAF /* BSBaseCollectionReusableView.m in Sources */,
 				00D09CA421E8751A008EFDAF /* NSString+LSWMEXtension.m in Sources */,
 				00D09CAD21E8751A008EFDAF /* FMDataMange.m in Sources */,
+				D0253B0922BF809200D8F88A /* AVAsset+FMLVideo.m in Sources */,
 				00D09CC021E8751A008EFDAF /* UIAlertController+WHBlocks.m in Sources */,
 				00D09CCA21E8751A008EFDAF /* BSBaseTableView.m in Sources */,
 				00D09CA121E8751A008EFDAF /* UIView+WHBlocksKit.m in Sources */,
+				D0253B0622BF805B00D8F88A /* UIViewController+GMUPlaceholderView.m in Sources */,
 				00D09CCD21E8751A008EFDAF /* BSBaseViewModel.m in Sources */,
 				00D09CCC21E8751A008EFDAF /* BSBaseTableHeaderFooterView.m in Sources */,
 				00D09CA021E8751A008EFDAF /* UIViewController+WHNavigatonBarAppearance.m in Sources */,
