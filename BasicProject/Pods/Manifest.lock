@@ -1,0 +1,170 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - AXIndicatorView (0.1.1)
+  - AXNavigationBackItemInjection (0.0.2)
+  - AXPracticalHUD (2.1.4):
+    - AXIndicatorView
+  - AXWebViewController (0.7.2):
+    - Aspects
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - NJKWebViewProgress
+  - Bugly (2.5.0)
+  - CYLTabBarController (1.17.22)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GPUImage (0.1.7)
+  - IQKeyboardManager (6.2.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15)
+  - MLEmojiLabel (1.0.2):
+    - TTTAttributedLabel (~> 1.13.4)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - ReactiveObjC (3.1.0)
+  - Reveal-SDK (4)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - SGPagingView (1.6.0)
+  - TTTAttributedLabel (1.13.4)
+  - TYCyclePagerView (1.1.2)
+  - UMCAnalytics (5.5.4):
+    - UMCCommon
+  - UMCCommon (1.5.3)
+  - UMCCommonLog (1.0.0)
+  - UMCShare/Core (6.9.5):
+    - UMCCommon
+  - UMCShare/Social/ReducedQQ (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZLPhotoBrowser (2.7.6):
+    - GPUImage
+    - SDWebImage
+
+DEPENDENCIES:
+  - AFNetworking
+  - AXWebViewController
+  - Bugly
+  - CYLTabBarController
+  - FMDB
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh (= 3.1.15)
+  - MLEmojiLabel
+  - ReactiveObjC
+  - Reveal-SDK (~> 4)
+  - SDCycleScrollView
+  - SGPagingView
+  - TYCyclePagerView
+  - UMCAnalytics
+  - UMCCommon
+  - UMCCommonLog
+  - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedSina
+  - UMCShare/Social/ReducedWeChat
+  - YYKit
+  - ZLPhotoBrowser
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Aspects
+    - AXIndicatorView
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - AXWebViewController
+    - Bugly
+    - CYLTabBarController
+    - FMDB
+    - GPUImage
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MLEmojiLabel
+    - NJKWebViewProgress
+    - ReactiveObjC
+    - Reveal-SDK
+    - SDCycleScrollView
+    - SDWebImage
+    - SGPagingView
+    - TTTAttributedLabel
+    - TYCyclePagerView
+    - UMCAnalytics
+    - UMCCommon
+    - UMCCommonLog
+    - UMCShare
+    - YYKit
+    - ZLPhotoBrowser
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AXIndicatorView: 566b490a2dd9781d4ffbcc9752be9b9cdc6e728e
+  AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
+  AXPracticalHUD: 821d170b31e050c426ef8754b07b4264a8b1d861
+  AXWebViewController: 96566c473fce2806f4da696132b31777f5404c9f
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CYLTabBarController: 35784c2969383583d11cc56ff5abce078f19d94a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  MLEmojiLabel: 36d73c19f9975cbf9def24e5bc135263b0337fd8
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  Reveal-SDK: 178c927f1a3230648d3a92b96f6e730a35b2750a
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SGPagingView: 4b4f443b365bc70979f890da63d93bc22103be32
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  TYCyclePagerView: 0f67b0986995fd614843e819bc974cadd7f98008
+  UMCAnalytics: 8449e33b7627ee26f1169202827a8d5a00b5442b
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
+  UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZLPhotoBrowser: 6dfadc4706429424f0a851fe40752aff076689ab
+
+PODFILE CHECKSUM: f010440d150624e41a336d88dfa2243c6397d082
+
+COCOAPODS: 1.5.3
